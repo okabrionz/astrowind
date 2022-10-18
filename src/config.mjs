@@ -1,11 +1,11 @@
 export const SITE = {
-	name: 'AstroWind',
+	name: 'Dasteric',
 
 	origin: 'https://astrowind.vercel.app',
 	basePathname: '/',
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	title: 'Dasteric | Nyaman &amp; Kekinian dengan Dasteric',
+	description: 'Produsen Daster paling nyaman dipakai dan berkualitas. Di ciptakan dari seluruh kekuatan langit dan bumi.',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
 	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',

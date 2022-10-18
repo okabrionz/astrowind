@@ -39,5 +39,9 @@
   },
   "engines": {
     "node": "^14.15.0 || >=16.0.0"
+  },
+  "dependencies": {
+    "@sideway/address": "^5.0.0",
+    "joi": "^17.6.3"
   }
 }
