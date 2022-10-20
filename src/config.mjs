@@ -1,7 +1,7 @@
 export const SITE = {
 	name: 'Dasteric',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://www.dasteric.com',
 	basePathname: '/',
 
 	title: 'Dasteric | Nyaman &amp; Kekinian dengan Dasteric',
