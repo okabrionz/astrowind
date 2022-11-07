@@ -31,12 +31,6 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 				<li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href="#">Pages</a
-					>
-				</li>
-				<li>
-					<a
-						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
 						href={getPermalink('useful-resources-to-create-websites', 'post')}
 						>Resources
 					</a>
@@ -47,12 +41,11 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 						href={getBlogPermalink()}>Blog</a
 					>
 				</li>
-				<li class="md:hidden">
+				<li>
 					<a
-						class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href="https://github.com/onwidget/astrowind"
-						>Github
-					</a>
+						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						href="/tentang">Tentang</a
+					>
 				</li>
 			</ul>
 			<div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
@@ -66,11 +59,11 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 						<Icon name="tabler:rss" class="w-5 h-5" />
 					</a>
 					<a
-						href="https://instagram.com/dasteresthetic"
+						href="https://tiktok.com/dasteresthetic"
 						class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
-						aria-label="Dasteric Instagram"
+						aria-label="Dasteric TikTok"
 					>
-						<Icon name="tabler:brand-instagram" class="w-5 h-5" />
+						<Icon name="tabler:brand-tiktok" class="w-5 h-5" />
 					</a>
 				</div>
 			</div>
