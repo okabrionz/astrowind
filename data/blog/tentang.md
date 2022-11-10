@@ -2,7 +2,7 @@
 pubDate: "Nov 06 2022"
 title: "Tentang Dasteric"
 description: "Pengrajin pakaian untuk di dalam dan luar ruangan yang memprioritaskan kenyamanan pemakainya."
-image: "~/assets/images/hero.jpg"
+image: "~/assets/images/black-dress1.png"
 category: "Dasteric"
 tags: [about, dasteric, aesthetic wear]
 ---
