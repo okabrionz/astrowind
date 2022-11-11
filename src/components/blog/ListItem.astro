@@ -20,7 +20,7 @@ const image = await findImage(post.image);
 				widths={[400, 900]}
 				sizes="(max-width: 900px) 400px, 900px"
 				alt={post.title}
-				aspectRatio="16:9"
+				aspectRatio="4:3"
 			/>
 		</div>
 	</a>
@@ -42,7 +42,7 @@ const image = await findImage(post.image);
 			<div>
 				<span class="text-gray-500 dark:text-slate-400">
 					<time datetime={post.pubDate}>{getFormattedDate(post.pubDate)}</time> ~
-					{Math.ceil(post.readingTime)} min read
+					{Math.ceil(post.readingTime)} menit dibaca
 				</span>
 			</div>
 			<div class="mt-4">
