@@ -25,15 +25,15 @@ const currentPage = page.currentPage ?? 1;
 const meta = {
 	title: `Blog ${currentPage > 1 ? `— Page ${currentPage} ` : ''}— ${SITE.name}`,
 	description: SITE.description,
-	canonical: getCanonical(getPermalink(page.url.current)),
-	ogType: "blog",
-	noindex: currentPage > 1
+	canonical: getCanonical(getPermalink(BLOG?.blog?.pathname)),
+	ogType: 'blog',
+	noindex: currentPage > 1,
 };
 ---
 
 <Layout {meta}>
 	<Fragment slot="title">
-		Informasi terbaru dari 
+		informasi Terbaru dari
 		<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">Dasteric</span>
 	</Fragment>
 	<BlogList posts={page.data} />

@@ -6,6 +6,7 @@ excerpt: "Kebijakan privasi dasteric"
 image: "~/assets/images/dasteric-maroon-0.jpeg"
 category: "Tutorials"
 tags: [fashion, pakaian]
+layout: ../layouts/Base.astro
 ---
 
 Excepteur nisi commodo aliqua exercitation laboris aliquip veniam aliquip labore ullamco sunt. Culpa consectetur excepteur dolore do commodo. Mollit ipsum irure est nisi Lorem nostrud tempor culpa in ut. Consequat incididunt cillum ullamco nulla officia irure do non tempor ea sit nulla aliqua. Enim ea laborum sunt est labore qui aliqua.

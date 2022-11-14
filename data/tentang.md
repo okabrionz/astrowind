@@ -1,11 +1,12 @@
 ---
-pubDate: "Nov 06 2022"
+pubDate: "Nov 14 2022"
 title: "Tentang Dasteric"
 description: "Pengrajin pakaian untuk di dalam dan luar ruangan yang memprioritaskan kenyamanan pemakainya."
 slug: tentang
 image: "~/assets/images/black-dress1.png"
 category: "Dasteric"
 tags: [about, dasteric, aesthetic wear]
+layout: ../layouts/PageLayout.astro
 ---
 
 Duis mollit ullamco commodo laborum commodo aliquip ipsum sunt irure ea adipisicing incididunt aliquip qui. Consectetur sunt nisi consectetur cupidatat dolor sunt est occaecat laboris aute elit cillum. In excepteur exercitation elit veniam est do cupidatat. Dolor aliqua enim eiusmod irure est mollit duis sit duis Lorem ipsum. Occaecat id culpa culpa ad minim.
