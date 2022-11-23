@@ -4,14 +4,17 @@ import { SITE, BLOG } from '~/config.mjs';
 
 const trim = (str, ch) => {
 	let start = 0,
-		end = str.length;
+		end = str.length || 0;
 	while (start < end && str[start] === ch) ++start;
 	while (end > start && str[end - 1] === ch) --end;
 	return start > 0 || end < str.length ? str.substring(start, end) : str;
 };
 
 const trimSlash = (s) => trim(trim(s, '/'));
-const createPath = (...params) => '/' + params.filter((el) => !!el).join('/');
+const createPath = (...params) => {
+	const paths = params.filter((el) => !!el).join('/');
+	return '/' + paths + (SITE.trailingSlash && paths ? '/' : '');
+};
 
 const basePathname = trimSlash(SITE.basePathname);
 
@@ -46,10 +49,15 @@ export const getPermalink = (slug = '', type = 'page') => {
 };
 
 /** */
-export const getBlogPermalink = () => getPermalink(BLOG_BASE);
-
-/** */
 export const getHomePermalink = () => {
 	const permalink = getPermalink();
 	return permalink !== '/' ? permalink + '/' : permalink;
 };
+
+/** */
+export const getRelativeLink = (link = "") => {
+	return createPath(basePathname, trimSlash(link));
+}
+
+/** */
+export const getBlogPermalink = () => getPermalink(BLOG_BASE);
