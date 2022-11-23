@@ -4,7 +4,7 @@ title: "Pakaian Paling Nyaman untuk Bersantai Ria"
 description: "Mencari pakaian lounge yang sempurna? Berikut rekomendasi koleksi pakaian lounge kami yang bergaya dan nyaman. Dari set pakaian santai yang nyaman hingga pakaian daster. Kami memiliki semua yang Kamu butuhkan untuk bersantai dengan penuh gaya."
 excerpt: "Ada berbagai gaya pakaian santai untuk wanita, tergantung pada apa yang sedang Kamu cari."
 image: "~/assets/images/lounge-wear.jpg"
-category: "Tutorials"
+category: "Informasi"
 tags: [fashion, pakaian]
 ---
 
