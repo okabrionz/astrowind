@@ -3,9 +3,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import { SITE } from '~/config.mjs';
 import { getCanonical, getPermalink } from '~/utils/permalinks';
 const meta = {
-	title: SITE.title,
+	title: "Tentang Dasteric",
 	description: SITE.description,
-	canonical: getCanonical(getPermalink()),
+	canonical: getCanonical(getPermalink("tentang")),
 };
 ---
 
