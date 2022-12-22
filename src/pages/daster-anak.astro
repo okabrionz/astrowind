@@ -1,0 +1,44 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { SITE } from '~/config.mjs';
+import { getCanonical, getPermalink, BLOG_BASE } from '~/utils/permalinks';
+const meta = {
+	title:" Grosir Daster Anak Karakter Lucu",
+	description: "Temukan daster anak berkualitas terbaik dengan gambar karakter lucu di Dasteric. Semua produk kami diimpor langsung dari negara asal, sehingga Anda dapat yakin bahwa kualitasnya terjamin. Belanja sekarang dan dapatkan harga terjangkau",
+	canonical: getCanonical(getPermalink()),
+};
+---
+
+<Layout {meta}>
+	<section class="py-8 sm:py-16 lg:py-20 mx-auto">
+		<article>
+			<header class="text-center">
+				<h1
+					class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-8 font-heading"
+				>
+					Grosir Daster Anak Karakter Lucu
+				</h1>
+			</header>
+			<div
+				class="container mx-auto px-6 sm:px-6 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 dark:prose-a:text-primary-400 prose-img:rounded-md prose-img:shadow-lg mt-8"
+			>
+			<p>Selamat datang di Dasteric, tempat belanja daster anak berkualitas terbaik dengan gambar karakter lucu yang
+				akan membuat anak-anak Anda senang! Kami menyediakan daster anak yang berkualitas tinggi dengan desain yang unik
+				dan menarik.</p> <p>Semua produk kami diimpor langsung dari negara asal, sehingga Anda dapat yakin bahwa kualitasnya
+					terjamin. Dengan Dasteric, anak-anak Anda akan selalu terlihat menarik dan nyaman saat memakai daster kami.</p>
+					<img src="/img/daster-anak-pokemon.jpeg" alt="Daster Anak Pokemon">
+					
+					<p>Desain karakter lucu yang kami miliki akan menjadi favorit anak-anak Anda dan pastinya akan membuat mereka
+						senang. Jangan lewatkan kesempatan ini untuk mendapatkan daster anak berkualitas terbaik dengan harga yang
+						terjangkau. Ayo segera belanja di Dasteric sekarang juga!</p>
+						
+						<img src="/img/daster-anak-ya-yi.jpeg" alt="Daster Anak Pokemon">
+
+				<h3>Tempat Produksi &amp; Gudang Dasteric</h3>
+
+				<p>Lokasi Dasteric Dasteric berada di Kecamatan Panjalu, Kabupaten Ciamis - Jawa Barat.</p>
+				<a class="btn btn-primary dark:text-ellipsis text-decoration-none" href="https://wa.me/6282319228666" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+			</div>
+		</article>
+	</section>
+</Layout>
